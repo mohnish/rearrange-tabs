@@ -12,6 +12,7 @@ It's as simple as that.
 ## Features:
 
 - Move tabs around in a window using keyboard shortcuts
+- Duplicate current tab to a new window [WIP]
 - Separate active tab out from the current window into a new window
 using keyboard shortcuts [WIP]
 
