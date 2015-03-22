@@ -18,6 +18,12 @@ It's as simple as that.
 - Separate active tab out from the current window into a new window
 using keyboard shortcuts [WIP]
 
+## Development
+
+- Once the changes have been made to the the extension, run `make dist`. This will update the `dist` directory with the new files.
+- If for some reason you want to remove the `dist` directory, run `make clean`.
+
+
 ## License
 
 (The MIT License)
