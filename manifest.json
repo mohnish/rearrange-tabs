@@ -1,0 +1,29 @@
+{
+  "name": "Rearrange Tabs",
+  "version": "0.0.1",
+  "description": "Allows users to rearrange tabs using keyboard shortcuts",
+  "author": "Mohnish Thallavajhula",
+  "manifest_version": 2,
+  "short_name": "Rearrange Tabs",
+  "background": {
+    "scripts": ["rearrange.js"],
+    "persistent": false
+  },
+  "commands": {
+    "move-tab-left": {
+      "suggested_key": {
+        "default": "Shift+Alt+Left",
+        "mac": "Shift+Alt+Left"
+      },
+      "description": "Move active tab to left"
+    },
+    "move-tab-right": {
+      "suggested_key": {
+        "default": "Shift+Alt+Right",
+        "mac": "Shift+Alt+Right"
+      },
+      "description": "Move active tab to right"
+    }
+  },
+  "permissions": ["tabs"]
+}
