@@ -11,6 +11,8 @@ around using keyboard shortcuts.
 
 It's as simple as that. Here's how it looks like: [https://www.youtube.com/watch?v=A1X3geKtF8A](https://www.youtube.com/watch?v=A1X3geKtF8A)
 
+Here's the introduction blog post: [http://mohni.sh/posts/rearrange-tabs/](http://mohni.sh/posts/rearrange-tabs/)
+
 ## Installation
 
 Install the extension by visiting this Chrome Web Store link: **[Chrome Web Store](https://chrome.google.com/webstore/detail/rearrange-tabs/ccnnhhnmpoffieppjjkhdakcoejcpbga)**
