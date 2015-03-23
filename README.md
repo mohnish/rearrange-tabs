@@ -9,7 +9,11 @@ around using keyboard shortcuts.
 - To move a tab to its left, use `Alt+Shift+Left`
 - To move a tab to its right, use `Alt+Shift+Right`
 
-It's as simple as that.
+It's as simple as that. Here's how it looks like: [https://www.youtube.com/watch?v=A1X3geKtF8A](https://www.youtube.com/watch?v=A1X3geKtF8A)
+
+## Installation
+
+Install the extension by visiting this Chrome Web Store link: **[Chrome Web Store](https://chrome.google.com/webstore/detail/rearrange-tabs/ccnnhhnmpoffieppjjkhdakcoejcpbga)**
 
 ## Features:
 
