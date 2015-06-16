@@ -8,13 +8,13 @@ around using keyboard shortcuts.
 
 - To move a tab to its left
 ```
-Windows: Shift+Alt+Left
 Mac: Ctrl+Shift+Left
+Windows: Shift+Alt+Left
 ```
 - To move a tab to its right
 ```
-Windows: Shift+Alt+Right
 Mac: Ctrl+Shift+Right
+Windows: Shift+Alt+Right
 ```
 
 It's as simple as that. Here's how it looks like: [https://www.youtube.com/watch?v=A1X3geKtF8A](https://www.youtube.com/watch?v=A1X3geKtF8A)
