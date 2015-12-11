@@ -28,9 +28,9 @@ Install the extension by visiting this Chrome Web Store link: **[Chrome Web Stor
 ## Features:
 
 - Move tabs around in a window using keyboard shortcuts
-- Duplicate current tab to a new window [WIP]
+- Duplicate current tab to a new window [in the future]
 - Separate active tab out from the current window into a new window
-using keyboard shortcuts [WIP]
+using keyboard shortcuts [in the future]
 
 ## Development
 
