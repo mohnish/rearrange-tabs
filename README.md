@@ -7,15 +7,14 @@ to rearrange the position of the tabs in a window by moving them
 around using keyboard shortcuts.
 
 - To move a tab to its left
-```
-Mac: Ctrl+Shift+Left
-Windows: Shift+Alt+Left
-```
+
+  - `Mac`: <kbd>Ctrl</kbd>-<kbd>Shift</kbd>-<kbd>Left</kbd>
+  - `Windows`: <kbd>Shift</kbd>-<kbd>Alt</kbd>-<kbd>Left</kbd>
+
 - To move a tab to its right
-```
-Mac: Ctrl+Shift+Right
-Windows: Shift+Alt+Right
-```
+
+  - `Mac`: <kbd>Ctrl</kbd>-<kbd>Shift</kbd>-<kbd>Right</kbd>
+  - `Windows`: <kbd>Shift</kbd>-<kbd>Alt</kbd>-<kbd>Right</kbd>
 
 It's as simple as that. Here's how it looks like: [https://www.youtube.com/watch?v=A1X3geKtF8A](https://www.youtube.com/watch?v=A1X3geKtF8A)
 
