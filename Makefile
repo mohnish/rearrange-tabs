@@ -4,6 +4,6 @@ dist:
 	@zip -r rearrange_tabs.zip dist/
 
 clean:
-	rm -fr dist/
+	rm -fr ./dist/
 
 .PHONY: dist clean
