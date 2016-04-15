@@ -1,4 +1,10 @@
 
+1.2.0 / 2016-04-15
+==================
+
+  * Add support for pinned tabs
+  * prioritize mac over windows
+
 1.1.0 / 2015-06-03
 ==================
 
