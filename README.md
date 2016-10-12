@@ -26,14 +26,20 @@ Install the extension by visiting this Chrome Web Store link: **[Chrome Web Stor
 
 ## Features:
 
-- Move regular tabs around in a window using keyboard shortcuts
-- Move pinned tabs around in a window using keyboard shortcuts
+- Move regular tabs around in a window
+- Move pinned tabs around in a window
+- Move multiple highlighted tabs around in a window
 
 ## Development
 
-- Once the changes have been made to the the extension, run `make dist`. This will update the `dist` directory with the new files.
-- If for some reason you want to remove the `dist` directory, run `make clean`.
-- It might be necessary to install `make` before you can use it. If you encounter an error, open the terminal and run `sudo apt-get install zip make`. 
+- Once the changes have been made to the the extension, run `make dist`. This will update the `dist` directory with the new files
+- If for some reason you want to remove the `dist` directory, run `make clean`
+- It might be necessary to install `make` before you can use it. If you encounter an error, open the terminal and run `sudo apt-get install zip make`
+
+## Contributors
+
+- Mohinsh Thallavajhula (@mohnish)
+- Anže (@avidenic)
 
 ## License
 
