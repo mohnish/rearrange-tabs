@@ -39,7 +39,7 @@ Install the extension by visiting this Chrome Web Store link: **[Chrome Web Stor
 ## Contributors
 
 - Mohinsh Thallavajhula (@mohnish)
-- Anže (@avidenic)
+- Anže Videnič (@avidenic)
 
 ## License
 
