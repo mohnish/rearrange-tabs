@@ -27,6 +27,9 @@
       "description": "Move active tab to right"
     }
   },
+  "browser_action": {
+  "default_icon": "icon16.png"
+  },
   "permissions": ["tabs"],
   "icons": {
     "16": "icon16.png",
