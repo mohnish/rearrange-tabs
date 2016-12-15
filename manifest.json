@@ -28,7 +28,7 @@
     }
   },
   "browser_action": {
-  "default_icon": "icon16.png"
+    "default_icon": "icon16.png"
   },
   "permissions": ["tabs"],
   "icons": {
