@@ -52,6 +52,8 @@ Install the extension by visiting this Chrome Web Store link: **[Chrome Web Stor
 
 - Mohinsh Thallavajhula (@mohnish)
 - Anže Videnič (@avidenic)
+- Sandeep Appikonda (@appikonda)
+- Rob Yang (@unknownbreaker)
 
 ## License
 
