@@ -26,7 +26,7 @@ Shortcuts are configurable via `chrome://extensions` page.
 
 Install the extension by visiting this Chrome Web Store link: **[Chrome Web Store](https://chrome.google.com/webstore/detail/rearrange-tabs/ccnnhhnmpoffieppjjkhdakcoejcpbga)**
 
-## Configuration
+## Customize Shortcut
 
 1. Go to `chrome://extensions` and scroll to the bottom of the page.
 3. Click on `Keyboard shortcuts` to open `Keyboard Shortcuts for Extensions and Apps`.
