@@ -6,6 +6,8 @@ Rearrange Tabs is a tiny Google Chrome Extension that allows users
 to rearrange the position of the tabs in a window by moving them
 around using keyboard shortcuts.
 
+Rearrange Tabs has been featured on [LifeHacker](http://lifehacker.com/this-extension-rearranges-chrome-tabs-with-keyboard-sho-1791622486) and [Changelog](http://email.changelog.com/t/t-9A7FDF4C536D63BF) :smile:
+
 - To move a tab to its left
 
   - `Mac`: <kbd>Ctrl</kbd>-<kbd>Shift</kbd>-<kbd>Left</kbd>
