@@ -45,7 +45,7 @@ Install the extension by visiting this Chrome Web Store link: **[Chrome Web Stor
 
 (The MIT License)
 
-Copyright (c) 2016 Mohnish Thallavajhula &lt;i@mohni.sh&gt;
+Copyright (c) 2017 Mohnish Thallavajhula &lt;m@mt.cx&gt;
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
