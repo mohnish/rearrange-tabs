@@ -1,4 +1,12 @@
 
+2.0.0 / 2017-10-21
+==================
+
+  * removing permission block from manifest since it is not needed to rearrange tabs (Issue #19)
+  * Create CODE_OF_CONDUCT.md
+  * update license
+  * include lifehacker and changelog links
+
 1.4.1 / 2016-11-18
 ==================
 
