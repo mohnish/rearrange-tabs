@@ -20,7 +20,7 @@ Rearrange Tabs has been featured on [LifeHacker](http://lifehacker.com/this-exte
 
 It's as simple as that. Here's how it looks like: [https://www.youtube.com/watch?v=A1X3geKtF8A](https://www.youtube.com/watch?v=A1X3geKtF8A)
 
-Here's the introduction blog post: [https://mt.cx/rearrange-tabs](https://mt.cx/rearrange-tabs)
+Here's the introduction blog post: [https://iam.mt/rearrange-tabs](https://iam.mt/rearrange-tabs)
 
 Shortcuts are configurable via `chrome://extensions` page.
 
