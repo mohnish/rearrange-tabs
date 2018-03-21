@@ -25,6 +25,14 @@
         "mac": "MacCtrl+Shift+Right"
       },
       "description": "Move active tab to right"
+    },
+      "move-tab-to-new-window": {
+        "suggested_key": {
+          "default": "Shift+Alt+Up",
+          "windows": "Shift+Alt+Up",
+          "mac": "Shift+Alt+Up"
+        },
+        "description": "Move active tab to a new window"
     }
   },
   "browser_action": {

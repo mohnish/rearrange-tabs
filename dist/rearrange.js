@@ -1,6 +1,13 @@
 chrome.commands.onCommand.addListener(function (command) {
   var queryInfo = { currentWindow: true };
-  var move = ('move-tab-left' == command) ? -1 : 1;
+  var move;
+  if ('move-tab-left' == command) {
+    move = -1;
+  } else if ('move-tab-right' == command) {
+    move = 1;
+  } else {
+    move = 0;
+  }
   var tabCount = {
     all: 0,
     pinned: 0
@@ -46,10 +53,20 @@ chrome.commands.onCommand.addListener(function (command) {
       for (var i = 0, len = tabs.length; i < len; i++) {
         moveTab(tabs[i]);
       }
-    } else { // move tabs to the right
+    } else if (move == 1) { // move tabs to the right
       for (var i = tabs.length; i > 0; i--) {
         moveTab(tabs[i - 1]);
       }
+    } else { // move tabs to new window
+      // first tab to be moved, the adopter of the new window
+      const firstTab = tabs[0].id;
+      // other tabs to be moved
+      const tabIds = tabs.slice(1).map(tab => tab.id);
+      const createData = { tabId: firstTab };
+      chrome.windows.create(createData, function(newWindow) {
+        const moveProperties = { windowId: newWindow.id, index: 0 };
+        chrome.tabs.move(tabIds, moveProperties);
+      });
     }
   };
 
