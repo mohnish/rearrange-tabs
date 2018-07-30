@@ -28,9 +28,9 @@
     },
     "move-tab-to-new-window": {
       "suggested_key": {
-        "default": "Shift+Alt+Up",
-        "windows": "Shift+Alt+Up",
-        "mac": "MacCtrl+Shift+Up"
+        "default": "Shift+Alt+Space",
+        "windows": "Shift+Alt+Space",
+        "mac": "MacCtrl+Shift+Space"
       },
       "description": "Move active tab to a new window"
     }
