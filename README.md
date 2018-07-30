@@ -20,8 +20,8 @@ Rearrange Tabs has been featured on [LifeHacker](http://lifehacker.com/this-exte
 
 - To move a tab to a new window
 
-  - `Mac`: <kbd>Ctrl</kbd>-<kbd>Shift</kbd>-<kbd>Up</kbd>
-  - `Windows`: <kbd>Shift</kbd>-<kbd>Alt</kbd>-<kbd>Up</kbd>
+  - `Mac`: <kbd>Ctrl</kbd>-<kbd>Shift</kbd>-<kbd>Space</kbd>
+  - `Windows`: <kbd>Shift</kbd>-<kbd>Alt</kbd>-<kbd>Space</kbd>
 
 It's as simple as that. Here's how it looks like: [https://www.youtube.com/watch?v=A1X3geKtF8A](https://www.youtube.com/watch?v=A1X3geKtF8A)
 
