@@ -3,8 +3,8 @@
 ![](http://i.imgur.com/BFar404.png)
 
 Rearrange Tabs is a tiny Google Chrome Extension that allows users
-to rearrange the position of the tabs in a window by moving them
-around using keyboard shortcuts.
+to rearrange the position of tabs by moving them around within a
+window or moving them to a new window.
 
 Rearrange Tabs has been featured on [LifeHacker](http://lifehacker.com/this-extension-rearranges-chrome-tabs-with-keyboard-sho-1791622486) and [Changelog](http://email.changelog.com/t/t-9A7FDF4C536D63BF) :smile:
 
@@ -27,7 +27,7 @@ It's as simple as that. Here's how it looks like: [https://www.youtube.com/watch
 
 Here's the introduction blog post: [https://iam.mt/rearrange-tabs](https://iam.mt/rearrange-tabs)
 
-Shortcuts are configurable via `chrome://extensions` page.
+Shortcuts are configurable via `chrome://extensions/shortcuts` page.
 
 ## Installation
 
@@ -35,19 +35,20 @@ Install the extension by visiting this Chrome Web Store link: **[Chrome Web Stor
 
 ## Customize Shortcut
 
-1. Go to `chrome://extensions` and scroll to the bottom of the page.
-3. Click on `Keyboard shortcuts` to open `Keyboard Shortcuts for Extensions and Apps`.
-4. Scroll down to locate `Rearrange Tabs`.
-5. Click in the greyed out fields for `Not set`.
-6. Press the desired key combination to create a new shortcut.
+1. Go to `chrome://extensions/shortcuts`
+2. Scroll down to locate `Rearrange Tabs`.
+3. Click in the greyed out fields for `Not set`.
+4. Press the desired key combination to create a new shortcut.
 
 ![image](https://cloud.githubusercontent.com/assets/6026454/20899726/9eec1d9c-baf9-11e6-9aee-3092bdb34d2b.png)
 
 ## Features:
 
-- Move regular tabs around in a window
-- Move pinned tabs around in a window
+- Move a regular tab around in a window
+- Move a pinned tab around in a window
 - Move multiple highlighted tabs around in a window
+- Move a regular tab to a new window
+- Move multiple highlighted regular tabs to a new window
 
 ## Development
 
@@ -62,6 +63,7 @@ Install the extension by visiting this Chrome Web Store link: **[Chrome Web Stor
 - Sandeep Appikonda (@appikonda)
 - Rob Yang (@unknownbreaker)
 - Roland Synnestvedt (@rsynnest)
+- Sam Adams (@samharad)
 
 ## License
 
