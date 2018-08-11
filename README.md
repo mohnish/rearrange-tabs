@@ -52,7 +52,8 @@ Install the extension by visiting this Chrome Web Store link: **[Chrome Web Stor
 
 - Move regular tabs around in a window
 - Move pinned tabs around in a window
-- Move multiple highlighted tabs around in a window
+- Move multiple selected tabs around in a window
+- Move selected tabs to the leftmost or the rightmost positions
 
 ## Development
 
