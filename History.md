@@ -1,4 +1,9 @@
 
+2.1.0 / 2018-07-05
+==================
+
+  * Add feature to move tabs to the front or the end of the tab bar (Issue #3)
+
 2.0.0 / 2017-10-21
 ==================
 

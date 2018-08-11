@@ -8,15 +8,25 @@ around using keyboard shortcuts.
 
 Rearrange Tabs has been featured on [LifeHacker](http://lifehacker.com/this-extension-rearranges-chrome-tabs-with-keyboard-sho-1791622486) and [Changelog](http://email.changelog.com/t/t-9A7FDF4C536D63BF) :smile:
 
-- To move a tab to its left
+- To move selected tab(s) left
 
   - `Mac`: <kbd>Ctrl</kbd>-<kbd>Shift</kbd>-<kbd>Left</kbd>
   - `Windows`: <kbd>Shift</kbd>-<kbd>Alt</kbd>-<kbd>Left</kbd>
 
-- To move a tab to its right
+- To move selected tab(s) right
 
   - `Mac`: <kbd>Ctrl</kbd>-<kbd>Shift</kbd>-<kbd>Right</kbd>
   - `Windows`: <kbd>Shift</kbd>-<kbd>Alt</kbd>-<kbd>Right</kbd>
+
+- To move selected tab(s) to the front (leftmost position)
+
+  - `Mac`: <kbd>Ctrl</kbd>-<kbd>Shift</kbd>-<kbd>Down</kbd>
+  - `Windows`: <kbd>Shift</kbd>-<kbd>Alt</kbd>-<kbd>Down</kbd>
+
+- To move selected tab(s) to the end (rightmost position)
+
+  - `Mac`: <kbd>Ctrl</kbd>-<kbd>Shift</kbd>-<kbd>Up</kbd>
+  - `Windows`: <kbd>Shift</kbd>-<kbd>Alt</kbd>-<kbd>Up</kbd>
 
 It's as simple as that. Here's how it looks like: [https://www.youtube.com/watch?v=A1X3geKtF8A](https://www.youtube.com/watch?v=A1X3geKtF8A)
 
@@ -57,6 +67,7 @@ Install the extension by visiting this Chrome Web Store link: **[Chrome Web Stor
 - Sandeep Appikonda (@appikonda)
 - Rob Yang (@unknownbreaker)
 - Roland Synnestvedt (@rsynnest)
+- Tomas Juočepis (@TomasJuocepis)
 
 ## License
 
