@@ -1,4 +1,9 @@
 
+2.1.6 / 2018-08-19
+==================
+
+  * update commands in script to reflect the new namespace
+
 2.1.5 / 2018-08-19
 ==================
 
