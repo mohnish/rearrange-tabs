@@ -1,6 +1,6 @@
 {
   "name": "Rearrange Tabs",
-  "version": "2.1.3",
+  "version": "2.1.5",
   "description": "Allows users to rearrange tabs using keyboard shortcuts",
   "author": "Mohnish Thallavajhula",
   "manifest_version": 2,
@@ -10,7 +10,7 @@
     "persistent": false
   },
   "commands": {
-    "move-selected-tabs-left": {
+    "rt-move-selected-tabs-left": {
       "suggested_key": {
         "default": "Shift+Alt+Left",
         "windows": "Shift+Alt+Left",
@@ -18,7 +18,7 @@
       },
       "description": "Move selected tab(s) left"
     },
-    "move-selected-tabs-right": {
+    "rt-move-selected-tabs-right": {
       "suggested_key": {
         "default": "Shift+Alt+Right",
         "windows": "Shift+Alt+Right",
@@ -26,7 +26,7 @@
       },
       "description": "Move selected tab(s) right"
     },
-    "move-selected-tabs-to-front": {
+    "rt-move-selected-tabs-to-front": {
       "suggested_key": {
         "default": "Shift+Alt+Down",
         "windows": "Shift+Alt+Down",
@@ -34,7 +34,7 @@
       },
       "description": "Move selected tab(s) to the front"
     },
-    "move-selected-tabs-to-end": {
+    "rt-move-selected-tabs-to-end": {
       "suggested_key": {
         "default": "Shift+Alt+Up",
         "windows": "Shift+Alt+Up",
