@@ -27,7 +27,7 @@ chrome.commands.onCommand.addListener(function (command) {
 
   var moveTabs = function (tabs, leftBoundary, rightBoundary) {
     var newPositions = [];
-    if ('move-selected-tabs-left' == command) {
+    if ('rt-move-selected-tabs-left' == command) {
       // if wrapping around, we need to move only one tab,
       // even if more than one is selected
       if (tabs[0].index === leftBoundary) {
@@ -35,7 +35,7 @@ chrome.commands.onCommand.addListener(function (command) {
         return;
       }
       newPositions = tabs.map(tab => tab.index - 1);
-    } else if ('move-selected-tabs-right' == command) {
+    } else if ('rt-move-selected-tabs-right' == command) {
       // if wrapping around, we need to move only one tab,
       // even if more than one is selected
       if (tabs[tabs.length - 1].index === rightBoundary) {
@@ -44,9 +44,9 @@ chrome.commands.onCommand.addListener(function (command) {
       }
       tabs.reverse(); // when moving right, process tabs from right to left
       newPositions = tabs.map(tab => tab.index + 1);
-    } else if ('move-selected-tabs-to-front' == command) {
+    } else if ('rt-move-selected-tabs-to-front' == command) {
       newPositions = createRange(leftBoundary, 1, tabs.length);
-    } else if ('move-selected-tabs-to-end' == command) {
+    } else if ('rt-move-selected-tabs-to-end' == command) {
       tabs.reverse(); // when moving right, process tabs from right to left
       newPositions = createRange(rightBoundary, -1, tabs.length);
     }
