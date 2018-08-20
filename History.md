@@ -1,4 +1,9 @@
 
+2.1.5 / 2018-08-19
+==================
+
+  * namespace the shortcuts with the "rt-" prefix. This fixes the bug that caused the shortcuts to reset after installing of 2.1.2. This only affected users who were upgrading from an existing version of rearrange tabs extension. New installs are not affected.
+
 2.1.2 / 2018-08-11
 ==================
 
