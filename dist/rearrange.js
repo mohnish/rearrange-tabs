@@ -60,6 +60,7 @@ chrome.commands.onCommand.addListener(function (command) {
         const moveProperties = { windowId: newWindow.id, index: 0 };
         chrome.tabs.move(tabIds, moveProperties);
       });
+    }
     for (var i = 0; i < newPositions.length; i++) {
       chrome.tabs.move(tabs[i].id, { index: newPositions[i] });
     }
