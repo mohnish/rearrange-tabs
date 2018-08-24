@@ -8,17 +8,27 @@ window or moving them to a new window.
 
 Rearrange Tabs has been featured on [LifeHacker](http://lifehacker.com/this-extension-rearranges-chrome-tabs-with-keyboard-sho-1791622486) and [Changelog](http://email.changelog.com/t/t-9A7FDF4C536D63BF) :smile:
 
-- To move a tab to its left
+- To move selected tab(s) left
 
   - `Mac`: <kbd>Ctrl</kbd>-<kbd>Shift</kbd>-<kbd>Left</kbd>
   - `Windows`: <kbd>Shift</kbd>-<kbd>Alt</kbd>-<kbd>Left</kbd>
 
-- To move a tab to its right
+- To move selected tab(s) right
 
   - `Mac`: <kbd>Ctrl</kbd>-<kbd>Shift</kbd>-<kbd>Right</kbd>
   - `Windows`: <kbd>Shift</kbd>-<kbd>Alt</kbd>-<kbd>Right</kbd>
 
-- To move a tab to a new window
+- To move selected tab(s) to the front (leftmost position)
+
+  - `Mac`: <kbd>Ctrl</kbd>-<kbd>Shift</kbd>-<kbd>Down</kbd>
+  - `Windows`: <kbd>Shift</kbd>-<kbd>Alt</kbd>-<kbd>Down</kbd>
+
+- To move selected tab(s) to the end (rightmost position)
+
+  - `Mac`: <kbd>Ctrl</kbd>-<kbd>Shift</kbd>-<kbd>Up</kbd>
+  - `Windows`: <kbd>Shift</kbd>-<kbd>Alt</kbd>-<kbd>Up</kbd>
+
+- To move selected tab(s) to a new window
 
   - `Mac`: <kbd>Ctrl</kbd>-<kbd>Shift</kbd>-<kbd>Space</kbd>
   - `Windows`: <kbd>Shift</kbd>-<kbd>Alt</kbd>-<kbd>Space</kbd>
@@ -46,7 +56,8 @@ Install the extension by visiting this Chrome Web Store link: **[Chrome Web Stor
 
 - Move a regular tab around in a window
 - Move a pinned tab around in a window
-- Move multiple highlighted tabs around in a window
+- Move multiple selected tabs around in a window
+- Move selected tabs to the leftmost or the rightmost positions
 - Move a regular tab to a new window
 - Move multiple highlighted regular tabs to a new window
 
@@ -63,6 +74,7 @@ Install the extension by visiting this Chrome Web Store link: **[Chrome Web Stor
 - Sandeep Appikonda (@appikonda)
 - Rob Yang (@unknownbreaker)
 - Roland Synnestvedt (@rsynnest)
+- Tomas Juočepis (@TomasJuocepis)
 - Sam Adams (@samharad)
 
 ## License

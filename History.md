@@ -1,4 +1,24 @@
 
+2.1.6 / 2018-08-19
+==================
+
+  * update commands in script to reflect the new namespace
+
+2.1.5 / 2018-08-19
+==================
+
+  * namespace the shortcuts with the "rt-" prefix. This fixes the bug that caused the shortcuts to reset after installing of 2.1.2. This only affected users who were upgrading from an existing version of rearrange tabs extension. New installs are not affected.
+
+2.1.2 / 2018-08-11
+==================
+
+  * Fix versioning
+
+2.1.0 / 2018-07-05
+==================
+
+  * Add feature to move tabs to the front or the end of the tab bar (Issue #3)
+
 2.0.0 / 2017-10-21
 ==================
 
