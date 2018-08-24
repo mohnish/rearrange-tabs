@@ -50,7 +50,7 @@ chrome.commands.onCommand.addListener(function (command) {
     } else if ('rt-move-selected-tabs-to-end' == command) {
       tabs.reverse(); // when moving right, process tabs from right to left
       newPositions = createRange(rightBoundary, -1, tabs.length);
-    } else if ('rt-move-selected-tabs-to-new-window' == command) {
+    } else if ('rt-move-selected-tabs-to-new-window' == command && tabs.length > 0) {
       // first tab to be moved, the adopter of the new window
       const firstTab = tabs[0].id;
       // other tabs to be moved
