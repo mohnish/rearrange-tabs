@@ -41,6 +41,9 @@
         "mac": "MacCtrl+Shift+Up"
       },
       "description": "Move selected tab(s) to the end"
+    },
+    "rt-move-selected-tabs-to-new-window": {
+      "description": "Move selected tab(s) to a new window"
     }
   },
   "browser_action": {

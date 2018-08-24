@@ -1,4 +1,5 @@
 chrome.commands.onCommand.addListener(function (command) {
+  var queryInfo = { currentWindow: true };
   var tabCount = { all: 0, pinned: 0 };
 
   var countAll = function (tabs) {
@@ -49,6 +50,16 @@ chrome.commands.onCommand.addListener(function (command) {
     } else if ('rt-move-selected-tabs-to-end' == command) {
       tabs.reverse(); // when moving right, process tabs from right to left
       newPositions = createRange(rightBoundary, -1, tabs.length);
+    } else if ('rt-move-selected-tabs-to-new-window' == command && tabs.length > 0) {
+      // first tab to be moved, the adopter of the new window
+      const firstTab = tabs[0].id;
+      // other tabs to be moved
+      const tabIds = tabs.slice(1).map(tab => tab.id);
+      const createData = { tabId: firstTab };
+      chrome.windows.create(createData, function(newWindow) {
+        const moveProperties = { windowId: newWindow.id, index: 0 };
+        chrome.tabs.move(tabIds, moveProperties);
+      });
     }
     for (var i = 0; i < newPositions.length; i++) {
       chrome.tabs.move(tabs[i].id, { index: newPositions[i] });
