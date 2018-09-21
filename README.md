@@ -40,13 +40,12 @@ Install the extension by visiting this Chrome Web Store link: **[Chrome Web Stor
 
 ## Customize Shortcut
 
-1. Go to `chrome://extensions` and scroll to the bottom of the page.
-3. Click on `Keyboard shortcuts` to open `Keyboard Shortcuts for Extensions and Apps`.
-4. Scroll down to locate `Rearrange Tabs`.
-5. Click in the greyed out fields for `Not set`.
+1. Go to `chrome://extensions/shortcuts`.
+2. Scroll down to locate `Rearrange Tabs`.
+3. Click in the greyed fields.
 6. Press the desired key combination to create a new shortcut.
 
-![image](https://cloud.githubusercontent.com/assets/6026454/20899726/9eec1d9c-baf9-11e6-9aee-3092bdb34d2b.png)
+![image](https://user-images.githubusercontent.com/7259107/45467127-e57d4f80-b758-11e8-9976-fd62e20246f1.png)
 
 ## Features:
 
@@ -69,6 +68,7 @@ Install the extension by visiting this Chrome Web Store link: **[Chrome Web Stor
 - Rob Yang (@unknownbreaker)
 - Roland Synnestvedt (@rsynnest)
 - Tomas Juočepis (@TomasJuocepis)
+- Junho Park (@cnaa97)
 
 ## License
 
