@@ -30,7 +30,7 @@ chrome.commands.onCommand.addListener(function (command) {
     if ('rt-move-selected-tabs-left' == command) {
       // if wrapping around, we need to move only one tab,
       // even if more than one is selected
-      if (tabs[0].index === leftBoundary) {
+      if (tabs[0] && tabs[0].index === leftBoundary) {
         chrome.tabs.move(tabs[0].id, { index: rightBoundary});
         return;
       }
@@ -38,7 +38,7 @@ chrome.commands.onCommand.addListener(function (command) {
     } else if ('rt-move-selected-tabs-right' == command) {
       // if wrapping around, we need to move only one tab,
       // even if more than one is selected
-      if (tabs[tabs.length - 1].index === rightBoundary) {
+      if (tabs[tabs.length - 1] && tabs[tabs.length - 1].index === rightBoundary) {
         chrome.tabs.move(tabs[tabs.length - 1].id, { index: leftBoundary });
         return;
       }
