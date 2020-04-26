@@ -69,12 +69,13 @@ Install the extension by visiting this Chrome Web Store link: **[Chrome Web Stor
 - Roland Synnestvedt (@rsynnest)
 - Tomas Juočepis (@TomasJuocepis)
 - Junho Park (@cnaa97)
+- Ross Hale (@rosshale)
 
 ## License
 
 (The MIT License)
 
-Copyright (c) 2018 Mohnish Thallavajhula &lt;hi@iam.mt&gt;
+Copyright (c) 2020 Mohnish Thallavajhula &lt;hi@iam.mt&gt;
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
