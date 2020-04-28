@@ -2,6 +2,8 @@
 
 ![](http://i.imgur.com/BFar404.png)
 
+this module is used for rearranging files
+
 Rearrange Tabs is a tiny Google Chrome Extension that allows users
 to rearrange the position of the tabs in a window by moving them
 around using keyboard shortcuts.
