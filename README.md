@@ -71,6 +71,10 @@ Install the extension by visiting this Chrome Web Store link: **[Chrome Web Stor
 - Junho Park (@cnaa97)
 - Ross Hale (@rosshale)
 
+<a href="https://github.com/mohnish/rearrange-tabs/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=mohnish/rearrange-tabs" />
+</a>
+
 ## License
 
 (The MIT License)
