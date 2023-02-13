@@ -64,10 +64,10 @@ Install the extension by visiting this Chrome Web Store link: **[Chrome Web Stor
 
 - Mohinsh Thallavajhula (@mohnish)
 - Anže Videnič (@avidenic)
+- Tomas Juočepis (@TomasJuocepis)
 - Sandeep Appikonda (@appikonda)
 - Rob Yang (@unknownbreaker)
 - Roland Synnestvedt (@rsynnest)
-- Tomas Juočepis (@TomasJuocepis)
 - Junho Park (@cnaa97)
 - Ross Hale (@rosshale)
 
@@ -79,7 +79,7 @@ Install the extension by visiting this Chrome Web Store link: **[Chrome Web Stor
 
 (The MIT License)
 
-Copyright (c) 2020 Mohnish Thallavajhula &lt;hi@iam.mt&gt;
+Copyright (c) 2023 Mohnish Thallavajhula &lt;hi@iam.mt&gt;
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
