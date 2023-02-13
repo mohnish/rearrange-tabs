@@ -47,7 +47,7 @@ Install the extension by visiting this Chrome Web Store link: **[Chrome Web Stor
 
 ![image](https://user-images.githubusercontent.com/7259107/45467127-e57d4f80-b758-11e8-9976-fd62e20246f1.png)
 
-## Features:
+## Features
 
 - Move regular tabs around in a window
 - Move pinned tabs around in a window
