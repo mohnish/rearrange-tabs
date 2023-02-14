@@ -45,7 +45,7 @@ Install the extension by visiting this Chrome Web Store link: **[Chrome Web Stor
 3. Click in the greyed fields.
 6. Press the desired key combination to create a new shortcut.
 
-![image](https://user-images.githubusercontent.com/7259107/45467127-e57d4f80-b758-11e8-9976-fd62e20246f1.png)
+![image](https://user-images.githubusercontent.com/138171/218686343-b09abd8a-c259-4d49-8282-d58c461d85b1.png)
 
 ## Features
 
