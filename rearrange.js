@@ -18,7 +18,6 @@ chrome.commands.onCommand.addListener(async (cmd) => {
   const MOVE_RIGHT = 'rtr';
   const MOVE_FRONT = 'rtf';
   const MOVE_BACK = 'rtb';
-  const PINNED = 'pinned';
 
   let all = await chrome.tabs.query({ currentWindow: true });
   let pinned = await chrome.tabs.query({ currentWindow: true, pinned: true });
