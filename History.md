@@ -1,4 +1,11 @@
 
+3.0.0 / 2023-02-14 (Valentine's Day Release)
+==================
+
+  * Complete rewrite!
+  * Fixes bugs and performance issues
+  * Changes default key combo for Mac users to avoid conflict
+
 2.1.7 / 2020-04-26
 ==================
 
