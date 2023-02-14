@@ -6,7 +6,7 @@
   "manifest_version": 3,
   "short_name": "Rearrange Tabs",
   "background": {
-    "service_worker": "rearrange_v3.js"
+    "service_worker": "rearrange.js"
   },
   "commands": {
     "rtl": {
