@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rearrange Tabs Chrome Extension Updated!</title>
+  <style type="text/css">
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    :root {
+      --color-primary: #f6aca2;
+      --color-secondary: #f49b90;
+      --color-tertiary: #f28b7d;
+      --color-quaternary: #f07a6a;
+      --color-quinary: #ee6352;
+    }
+
+    body {
+      min-height: 100vh;
+      font-family: canada-type-gibson, sans-serif;
+      font-weight: 300;
+      font-size: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      overflow: hidden;
+      background-color: #eff8e2;
+    }
+
+    .content {
+      display: flex;
+      align-content: center;
+      justify-content: center;
+    }
+
+    .text_shadows {
+      text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
+      font-family: bungee, sans-serif;
+      font-weight: 400;
+      text-transform: uppercase;
+      font-size: calc(1rem + 2vw);
+      text-align: center;
+      margin: 0;
+      color: var(--color-primary);
+      -webkit-animation: shadows 1.2s ease-in infinite, move 1.2s ease-in infinite;
+              animation: shadows 1.2s ease-in infinite, move 1.2s ease-in infinite;
+      letter-spacing: 0.4rem;
+    }
+
+    @-webkit-keyframes shadows {
+      0% {
+        text-shadow: none;
+      }
+      10% {
+        text-shadow: 3px 3px 0 var(--color-secondary);
+      }
+      20% {
+        text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary);
+      }
+      30% {
+        text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary);
+      }
+      40% {
+        text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
+      }
+      50% {
+        text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
+      }
+      60% {
+        text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
+      }
+      70% {
+        text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary);
+      }
+      80% {
+        text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary);
+      }
+      90% {
+        text-shadow: 3px 3px 0 var(--color-secondary);
+      }
+      100% {
+        text-shadow: none;
+      }
+    }
+
+    @keyframes shadows {
+      0% {
+        text-shadow: none;
+      }
+      10% {
+        text-shadow: 3px 3px 0 var(--color-secondary);
+      }
+      20% {
+        text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary);
+      }
+      30% {
+        text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary);
+      }
+      40% {
+        text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
+      }
+      50% {
+        text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
+      }
+      60% {
+        text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
+      }
+      70% {
+        text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary);
+      }
+      80% {
+        text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary);
+      }
+      90% {
+        text-shadow: 3px 3px 0 var(--color-secondary);
+      }
+      100% {
+        text-shadow: none;
+      }
+    }
+    @-webkit-keyframes move {
+      0% {
+        transform: translate(0px, 0px);
+      }
+      40% {
+        transform: translate(-12px, -12px);
+      }
+      50% {
+        transform: translate(-12px, -12px);
+      }
+      60% {
+        transform: translate(-12px, -12px);
+      }
+      100% {
+        transform: translate(0px, 0px);
+      }
+    }
+    @keyframes move {
+      0% {
+        transform: translate(0px, 0px);
+      }
+      40% {
+        transform: translate(-12px, -12px);
+      }
+      50% {
+        transform: translate(-12px, -12px);
+      }
+      60% {
+        transform: translate(-12px, -12px);
+      }
+      100% {
+        transform: translate(0px, 0px);
+      }
+    }
+
+    h1, h2, h3 {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    ul {
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+  <h1><span class="text_shadows">🎉</span> Rearrange Tabs Chrome Extension has been updated! <span class="text_shadows">🎉</span></h1>
+  <h2>Version 3.0.0</h2>
+
+  <h3>Important changes</h3>
+  <ul>
+    <li><b>Mac users, your <i>default</i> shortcut combination has changed</b></li>
+    <li>Move left: <kbd>Ctrl</kbd>-<kbd>CMD</kbd>-<kbd>Left</kbd></li>
+    <li>Move right: <kbd>Ctrl</kbd>-<kbd>CMD</kbd>-<kbd>Right</kbd></li>
+    <li>Move front (leftmost): <kbd>Ctrl</kbd>-<kbd>CMD</kbd>-<kbd>Up</kbd></li>
+    <li>Move back (rightmost): <kbd>Ctrl</kbd>-<kbd>CMD</kbd>-<kbd>Down</kbd></li>
+    <li>You can always customize your shortcuts visiting (from your address bar): <b>chrome://extensions/shortcuts</b></li>
+  </ul>
+</body>
+</html>

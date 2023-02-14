@@ -10,23 +10,23 @@ Rearrange Tabs has been featured on [LifeHacker](http://lifehacker.com/this-exte
 
 - To move selected tab(s) left
 
-  - `Mac`: <kbd>Ctrl</kbd>-<kbd>Shift</kbd>-<kbd>Left</kbd>
+  - `Mac`: <kbd>Ctrl</kbd>-<kbd>CMD</kbd>-<kbd>Left</kbd>
   - `Windows`: <kbd>Shift</kbd>-<kbd>Alt</kbd>-<kbd>Left</kbd>
 
 - To move selected tab(s) right
 
-  - `Mac`: <kbd>Ctrl</kbd>-<kbd>Shift</kbd>-<kbd>Right</kbd>
+  - `Mac`: <kbd>Ctrl</kbd>-<kbd>CMD</kbd>-<kbd>Right</kbd>
   - `Windows`: <kbd>Shift</kbd>-<kbd>Alt</kbd>-<kbd>Right</kbd>
 
 - To move selected tab(s) to the front (leftmost position)
 
-  - `Mac`: <kbd>Ctrl</kbd>-<kbd>Shift</kbd>-<kbd>Down</kbd>
-  - `Windows`: <kbd>Shift</kbd>-<kbd>Alt</kbd>-<kbd>Down</kbd>
-
-- To move selected tab(s) to the end (rightmost position)
-
-  - `Mac`: <kbd>Ctrl</kbd>-<kbd>Shift</kbd>-<kbd>Up</kbd>
+  - `Mac`: <kbd>Ctrl</kbd>-<kbd>CMD</kbd>-<kbd>Up</kbd>
   - `Windows`: <kbd>Shift</kbd>-<kbd>Alt</kbd>-<kbd>Up</kbd>
+
+- To move selected tab(s) to the back (rightmost position)
+
+  - `Mac`: <kbd>Ctrl</kbd>-<kbd>CMD</kbd>-<kbd>Down</kbd>
+  - `Windows`: <kbd>Shift</kbd>-<kbd>Alt</kbd>-<kbd>Down</kbd>
 
 It's as simple as that. Here's how it looks like: [https://www.youtube.com/watch?v=A1X3geKtF8A](https://www.youtube.com/watch?v=A1X3geKtF8A)
 
@@ -45,7 +45,7 @@ Install the extension by visiting this Chrome Web Store link: **[Chrome Web Stor
 3. Click in the greyed fields.
 6. Press the desired key combination to create a new shortcut.
 
-![image](https://user-images.githubusercontent.com/7259107/45467127-e57d4f80-b758-11e8-9976-fd62e20246f1.png)
+![image](https://user-images.githubusercontent.com/138171/218686343-b09abd8a-c259-4d49-8282-d58c461d85b1.png)
 
 ## Features
 
@@ -64,10 +64,10 @@ Install the extension by visiting this Chrome Web Store link: **[Chrome Web Stor
 
 - Mohinsh Thallavajhula (@mohnish)
 - Anže Videnič (@avidenic)
+- Tomas Juočepis (@TomasJuocepis)
 - Sandeep Appikonda (@appikonda)
 - Rob Yang (@unknownbreaker)
 - Roland Synnestvedt (@rsynnest)
-- Tomas Juočepis (@TomasJuocepis)
 - Junho Park (@cnaa97)
 - Ross Hale (@rosshale)
 
@@ -79,7 +79,7 @@ Install the extension by visiting this Chrome Web Store link: **[Chrome Web Stor
 
 (The MIT License)
 
-Copyright (c) 2020 Mohnish Thallavajhula &lt;hi@iam.mt&gt;
+Copyright (c) 2023 Mohnish Thallavajhula &lt;hi@iam.mt&gt;
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
