@@ -1,3 +1,9 @@
+chrome.runtime.onInstalled.addListener(async ({ reason }) => {
+  if (reason == 'update') {
+    await chrome.tabs.create({'url': chrome.runtime.getURL('updated.html')});
+  }
+});
+
 chrome.commands.onCommand.addListener(async (cmd) => {
   const MOVE_LEFT = 'rtl';
   const MOVE_RIGHT = 'rtr';
@@ -32,8 +38,9 @@ chrome.commands.onCommand.addListener(async (cmd) => {
 });
 
 /**
- * Range for:
- * TODO (MT): flesh this out
+ * Each tab has its own range. This depends on the type, pinned
+ * or unpinned. It also depends on how many tabs are currently
+ * highlighted.
  * pinned tabs: position in the highlighted tabs to pinned.length - 1
  * unpinned tabs: pinned.length to allTabs.length - 1
  * When moving left, we update highlighted tabs from left to right
