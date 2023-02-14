@@ -1,6 +1,15 @@
-chrome.runtime.onInstalled.addListener(async ({ reason }) => {
-  if (reason == 'update') {
-    await chrome.tabs.create({'url': chrome.runtime.getURL('updated.html')});
+chrome.runtime.onInstalled.addListener(async ({ reason, previousVersion }) => {
+  let version;
+
+  try {
+    version = Number(previousVersion.split('.')[0]);
+  } catch(e) {
+    version = 3;
+  }
+
+  // Display only when updating from v2 to v3
+  if (reason == 'update' && version == 2) {
+    await chrome.tabs.create({ 'url': chrome.runtime.getURL('updated.html' )});
   }
 });
 
@@ -16,6 +25,7 @@ chrome.commands.onCommand.addListener(async (cmd) => {
   let highlightedTabs = await chrome.tabs.query({ currentWindow: true, highlighted: true, pinned: false });
   let highlightedPinnedTabs = await chrome.tabs.query({ currentWindow: true, highlighted: true, pinned: true });
 
+  // We attempt to move pinned tabs only if they're available
   switch (cmd) {
     case MOVE_LEFT:
       if (highlightedPinnedTabs.length > 0) moveLeft(highlightedPinnedTabs, 0);
@@ -41,10 +51,10 @@ chrome.commands.onCommand.addListener(async (cmd) => {
  * Each tab has its own range. This depends on the type, pinned
  * or unpinned. It also depends on how many tabs are currently
  * highlighted.
- * pinned tabs: position in the highlighted tabs to pinned.length - 1
- * unpinned tabs: pinned.length to allTabs.length - 1
- * When moving left, we update highlighted tabs from left to right
- * When moving right, we update highlighted tabs from right to left
+ * pinned tabs: <position in the highlighted pinned tabs list> to <right most end of the pinned tabs>
+ * unpinned tabs: <position after pinned tabs + position in the highlighted unpinned tabs list> to <position in the highlighted unpinned tabs list from the right most end>
+ * When moving left, we update highlighted tabs from left to right, the natural order
+ * When moving right, we update highlighted tabs from right to left - this avoids a lot of UI bugs
 */
 
 function moveLeft(highlightedTabs, offset) {

@@ -1,49 +1,48 @@
 {
   "name": "Rearrange Tabs",
-  "version": "2.1.7",
+  "version": "3.0.0",
   "description": "Allows users to rearrange tabs using keyboard shortcuts",
   "author": "Mohnish Thallavajhula",
-  "manifest_version": 2,
+  "manifest_version": 3,
   "short_name": "Rearrange Tabs",
   "background": {
-    "scripts": ["rearrange.js"],
-    "persistent": false
+    "service_worker": "rearrange.js"
   },
   "commands": {
-    "rt-move-selected-tabs-left": {
+    "rtl": {
       "suggested_key": {
         "default": "Shift+Alt+Left",
         "windows": "Shift+Alt+Left",
-        "mac": "MacCtrl+Shift+Left"
+        "mac": "Command+MacCtrl+Left"
       },
       "description": "Move selected tab(s) left"
     },
-    "rt-move-selected-tabs-right": {
+    "rtr": {
       "suggested_key": {
         "default": "Shift+Alt+Right",
         "windows": "Shift+Alt+Right",
-        "mac": "MacCtrl+Shift+Right"
+        "mac": "Command+MacCtrl+Right"
       },
       "description": "Move selected tab(s) right"
     },
-    "rt-move-selected-tabs-to-front": {
-      "suggested_key": {
-        "default": "Shift+Alt+Down",
-        "windows": "Shift+Alt+Down",
-        "mac": "MacCtrl+Shift+Down"
-      },
-      "description": "Move selected tab(s) to the front"
-    },
-    "rt-move-selected-tabs-to-end": {
+    "rtf": {
       "suggested_key": {
         "default": "Shift+Alt+Up",
         "windows": "Shift+Alt+Up",
-        "mac": "MacCtrl+Shift+Up"
+        "mac": "Command+MacCtrl+Up"
       },
-      "description": "Move selected tab(s) to the end"
+      "description": "Move selected tab(s) to the front"
+    },
+    "rtb": {
+      "suggested_key": {
+        "default": "Shift+Alt+Down",
+        "windows": "Shift+Alt+Down",
+        "mac": "Command+MacCtrl+Down"
+      },
+      "description": "Move selected tab(s) to the back"
     }
   },
-  "browser_action": {
+  "action": {
     "default_icon": "icon16.png"
   },
   "icons": {
