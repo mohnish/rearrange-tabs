@@ -5,6 +5,7 @@
   * Complete rewrite!
   * Fixes bugs and performance issues
   * Changes default key combo for Mac users to avoid conflict
+  * Dropped support for tabs cycling around the extremities
 
 2.1.7 / 2020-04-26
 ==================
