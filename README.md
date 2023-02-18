@@ -1,5 +1,10 @@
 # Rearrange Tabs
 
+![](https://img.shields.io/chrome-web-store/v/ccnnhhnmpoffieppjjkhdakcoejcpbga?style=for-the-badge)
+![](https://img.shields.io/chrome-web-store/users/ccnnhhnmpoffieppjjkhdakcoejcpbga?style=for-the-badge)
+![](https://img.shields.io/chrome-web-store/rating/ccnnhhnmpoffieppjjkhdakcoejcpbga?style=for-the-badge)
+
+
 ![](http://i.imgur.com/BFar404.png)
 
 Rearrange Tabs is a tiny Google Chrome Extension that allows users
