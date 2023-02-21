@@ -37,7 +37,7 @@ It's as simple as that. Here's how it looks like: [https://www.youtube.com/watch
 
 Here's the introduction blog post: [https://iam.mt/rearrange-tabs](https://iam.mt/rearrange-tabs)
 
-Shortcuts are configurable via `chrome://extensions` page.
+Shortcuts are configurable via `chrome://extensions/shortcuts` page.
 
 ## Installation
 
