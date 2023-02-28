@@ -8,8 +8,8 @@
 ![](http://i.imgur.com/BFar404.png)
 
 Rearrange Tabs is a tiny Google Chrome Extension that allows users
-to rearrange the position of the tabs in a window by moving them
-around using keyboard shortcuts.
+to rearrange the position of tabs by moving them around within a
+window or moving them to a new window.
 
 Rearrange Tabs has been featured on [LifeHacker](http://lifehacker.com/this-extension-rearranges-chrome-tabs-with-keyboard-sho-1791622486) and [Changelog](http://email.changelog.com/t/t-9A7FDF4C536D63BF) :smile:
 
@@ -33,6 +33,11 @@ Rearrange Tabs has been featured on [LifeHacker](http://lifehacker.com/this-exte
   - `Mac`: <kbd>Ctrl</kbd>-<kbd>CMD</kbd>-<kbd>Down</kbd>
   - `Windows`: <kbd>Shift</kbd>-<kbd>Alt</kbd>-<kbd>Down</kbd>
 
+- To move selected tab(s) to a new window
+
+  - `Mac`: <kbd>Ctrl</kbd>-<kbd>Shift</kbd>-<kbd>Space</kbd>
+  - `Windows`: <kbd>Shift</kbd>-<kbd>Alt</kbd>-<kbd>Space</kbd>
+
 It's as simple as that. Here's how it looks like: [https://www.youtube.com/watch?v=A1X3geKtF8A](https://www.youtube.com/watch?v=A1X3geKtF8A)
 
 Here's the introduction blog post: [https://iam.mt/rearrange-tabs](https://iam.mt/rearrange-tabs)
@@ -45,19 +50,21 @@ Install the extension by visiting this Chrome Web Store link: **[Chrome Web Stor
 
 ## Customize Shortcut
 
-1. Go to `chrome://extensions/shortcuts`.
+1. Go to `chrome://extensions/shortcuts`
 2. Scroll down to locate `Rearrange Tabs`.
-3. Click in the greyed fields.
-6. Press the desired key combination to create a new shortcut.
+3. Click in the greyed out fields for `Not set`.
+4. Press the desired key combination to create a new shortcut.
 
 ![image](https://user-images.githubusercontent.com/138171/218686343-b09abd8a-c259-4d49-8282-d58c461d85b1.png)
 
 ## Features
 
-- Move regular tabs around in a window
-- Move pinned tabs around in a window
+- Move a regular tab around in a window
+- Move a pinned tab around in a window
 - Move multiple selected tabs around in a window
 - Move selected tabs to the leftmost or the rightmost positions
+- Move a regular tab to a new window
+- Move multiple highlighted regular tabs to a new window
 
 ## Development
 
@@ -70,6 +77,7 @@ Install the extension by visiting this Chrome Web Store link: **[Chrome Web Stor
 - Mohinsh Thallavajhula (@mohnish)
 - Anže Videnič (@avidenic)
 - Tomas Juočepis (@TomasJuocepis)
+- Sam Adams (@samharad)
 - Sandeep Appikonda (@appikonda)
 - Rob Yang (@unknownbreaker)
 - Roland Synnestvedt (@rsynnest)
