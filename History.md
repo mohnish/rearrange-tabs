@@ -1,4 +1,17 @@
 
+3.0.0 / 2023-02-14 (Valentine's Day Release)
+==================
+
+  * Complete rewrite!
+  * Fixes bugs and performance issues
+  * Changes default key combo for Mac users to avoid conflict
+  * Dropped support for tabs cycling around the extremities
+
+2.1.7 / 2020-04-26
+==================
+
+  * Fix errors on mac chrome 81.0.4044.92
+
 2.1.6 / 2018-08-19
 ==================
 

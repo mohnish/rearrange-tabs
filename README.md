@@ -1,5 +1,10 @@
 # Rearrange Tabs
 
+![](https://img.shields.io/chrome-web-store/v/ccnnhhnmpoffieppjjkhdakcoejcpbga?style=for-the-badge)
+![](https://img.shields.io/chrome-web-store/users/ccnnhhnmpoffieppjjkhdakcoejcpbga?style=for-the-badge)
+![](https://img.shields.io/chrome-web-store/rating/ccnnhhnmpoffieppjjkhdakcoejcpbga?style=for-the-badge)
+
+
 ![](http://i.imgur.com/BFar404.png)
 
 Rearrange Tabs is a tiny Google Chrome Extension that allows users
@@ -10,23 +15,23 @@ Rearrange Tabs has been featured on [LifeHacker](http://lifehacker.com/this-exte
 
 - To move selected tab(s) left
 
-  - `Mac`: <kbd>Ctrl</kbd>-<kbd>Shift</kbd>-<kbd>Left</kbd>
+  - `Mac`: <kbd>Ctrl</kbd>-<kbd>CMD</kbd>-<kbd>Left</kbd>
   - `Windows`: <kbd>Shift</kbd>-<kbd>Alt</kbd>-<kbd>Left</kbd>
 
 - To move selected tab(s) right
 
-  - `Mac`: <kbd>Ctrl</kbd>-<kbd>Shift</kbd>-<kbd>Right</kbd>
+  - `Mac`: <kbd>Ctrl</kbd>-<kbd>CMD</kbd>-<kbd>Right</kbd>
   - `Windows`: <kbd>Shift</kbd>-<kbd>Alt</kbd>-<kbd>Right</kbd>
 
 - To move selected tab(s) to the front (leftmost position)
 
-  - `Mac`: <kbd>Ctrl</kbd>-<kbd>Shift</kbd>-<kbd>Down</kbd>
-  - `Windows`: <kbd>Shift</kbd>-<kbd>Alt</kbd>-<kbd>Down</kbd>
-
-- To move selected tab(s) to the end (rightmost position)
-
-  - `Mac`: <kbd>Ctrl</kbd>-<kbd>Shift</kbd>-<kbd>Up</kbd>
+  - `Mac`: <kbd>Ctrl</kbd>-<kbd>CMD</kbd>-<kbd>Up</kbd>
   - `Windows`: <kbd>Shift</kbd>-<kbd>Alt</kbd>-<kbd>Up</kbd>
+
+- To move selected tab(s) to the back (rightmost position)
+
+  - `Mac`: <kbd>Ctrl</kbd>-<kbd>CMD</kbd>-<kbd>Down</kbd>
+  - `Windows`: <kbd>Shift</kbd>-<kbd>Alt</kbd>-<kbd>Down</kbd>
 
 - To move selected tab(s) to a new window
 
@@ -50,9 +55,9 @@ Install the extension by visiting this Chrome Web Store link: **[Chrome Web Stor
 3. Click in the greyed out fields for `Not set`.
 4. Press the desired key combination to create a new shortcut.
 
-![image](https://cloud.githubusercontent.com/assets/6026454/20899726/9eec1d9c-baf9-11e6-9aee-3092bdb34d2b.png)
+![image](https://user-images.githubusercontent.com/138171/218686343-b09abd8a-c259-4d49-8282-d58c461d85b1.png)
 
-## Features:
+## Features
 
 - Move a regular tab around in a window
 - Move a pinned tab around in a window
@@ -71,17 +76,23 @@ Install the extension by visiting this Chrome Web Store link: **[Chrome Web Stor
 
 - Mohinsh Thallavajhula (@mohnish)
 - Anže Videnič (@avidenic)
+- Tomas Juočepis (@TomasJuocepis)
+- Sam Adams (@samharad)
 - Sandeep Appikonda (@appikonda)
 - Rob Yang (@unknownbreaker)
 - Roland Synnestvedt (@rsynnest)
-- Tomas Juočepis (@TomasJuocepis)
-- Sam Adams (@samharad)
+- Junho Park (@cnaa97)
+- Ross Hale (@rosshale)
+
+<a href="https://github.com/mohnish/rearrange-tabs/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=mohnish/rearrange-tabs" />
+</a>
 
 ## License
 
 (The MIT License)
 
-Copyright (c) 2018 Mohnish Thallavajhula &lt;hi@iam.mt&gt;
+Copyright (c) 2023 Mohnish Thallavajhula &lt;hi@iam.mt&gt;
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
