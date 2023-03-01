@@ -65,11 +65,13 @@ Install the extension by visiting this Chrome Web Store link: **[Chrome Web Stor
 - If for some reason you want to remove the `dist` directory, run `make clean`
 - It might be necessary to install `make` before you can use it. If you encounter an error, open the terminal and run `sudo apt-get install zip make`
 
+
 ## Contributors
 
 - Mohinsh Thallavajhula (@mohnish)
 - Anže Videnič (@avidenic)
 - Tomas Juočepis (@TomasJuocepis)
+- Sam Adams (@samharad)
 - Sandeep Appikonda (@appikonda)
 - Rob Yang (@unknownbreaker)
 - Roland Synnestvedt (@rsynnest)
