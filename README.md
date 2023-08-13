@@ -65,6 +65,14 @@ Install the extension by visiting this Chrome Web Store link: **[Chrome Web Stor
 - If for some reason you want to remove the `dist` directory, run `make clean`
 - It might be necessary to install `make` before you can use it. If you encounter an error, open the terminal and run `sudo apt-get install zip make`
 
+## Compatibility
+
+✅  Brave browser
+
+✅  Edge browser
+
+❌  Arc browser
+
 ## Contributors
 
 - Mohinsh Thallavajhula (@mohnish)
